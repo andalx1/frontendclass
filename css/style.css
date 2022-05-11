@@ -1,9 +1,4 @@
-*{
-    padding: 0;
-    margin: 0;
-    background: rgb(191, 208, 240);
-}
-h1, h2{
+h2{
     background-color: rgb(102, 252, 202);
     padding: 10px;
     width: 50%;
@@ -11,6 +6,10 @@ h1, h2{
     margin-top: 20px;
     text-align: center;
     border-radius: 5px;
+}
+h1 {
+    background-color: blue;
+    width: 50%;
 }
 ol{
     margin: 30px;
