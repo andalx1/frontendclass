@@ -7,11 +7,19 @@ concepto.style.color = 'blue';
 
 let caracteristicas = document.getElementsByTagName("p");
 caracteristicas[0].style.textAlign = "right";
-console.log(caracteristicas[0].innerHTML);
+//console.log(caracteristicas[0].innerHTML);
 
-let nuevoParrafo = document.createElement('p');
-let textoparrafo = document.createTextNode('el aparrafo es este.');
-let datoNuevo = document.getElementById('datos');
+let nuevoParrafo = document.createElement("p");
+let textParrafo = document.createTextNode("el aparrafo es este");
+let datoNuevo = document.getElementById("datos");
 datoNuevo.appendChild(nuevoParrafo);
-nuevoParrafo.appendChild(textoparrafo);
+nuevoParrafo.appendChild(textParrafo);
+//console.log(nuevoParrafo.innerHTML);
 
+function valida(){
+    let nombre = document.getElementById("nombre").value;
+    let radios = document.getElementsByName("programar");
+    let estudia = document.getElementById("estudiante");
+
+    
+}
