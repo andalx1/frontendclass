@@ -1,17 +1,22 @@
 *{
     box-sizing: border-box;
-}
-body {
     background-color: rgb(186, 158, 124);
+
+}
+main {
+    margin: auto;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    align-items: center;
-    
+    width: 400px;
+}
+h1, h2 {
+    text-align: center;
 }
 
 
 ol {
     margin: 30px;
     padding: 30px;
+    line-height: 30px;
 }
 a {
     text-decoration: none;
