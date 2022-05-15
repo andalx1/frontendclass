@@ -1,25 +1,19 @@
-h2{
-    background-color: rgb(102, 252, 202);
-    padding: 10px;
-    width: 50%;
-    margin: auto;
-    margin-top: 20px;
-    text-align: center;
-    border-radius: 5px;
+*{
+    box-sizing: border-box;
 }
-h1 {
-    background-color: rgb(76, 141, 191);
-    width: 50%;
+body {
+    background-color: rgb(186, 158, 124);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    
 }
-ol{
+
+
+ol {
     margin: 30px;
     padding: 30px;
 }
-a{
+a {
     text-decoration: none;
-}
-body{
-    background-color: bisque;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-
+    color: white;
 }
