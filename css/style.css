@@ -1,12 +1,16 @@
 *{
     box-sizing: border-box;
-    background: rgb(217, 209, 209);
 }
-main {
+.box {
+    padding: 10px;
     margin: auto;
     font-family: 'Play', sans-serif;    
     width: 500px;
     text-shadow: 3px 2px 5px rgb(133, 137, 137);
+    background: rgb(217, 209, 209);
+    border-radius: 15px;
+    box-shadow: 3px 3px 9px rgb(165, 168, 168);
+
 }
 h1, h2 {
     text-align: center;
@@ -23,5 +27,5 @@ ol {
 a {
     text-decoration: none;
     color: rgb(44, 108, 54);
-    font-size: 30px;
+    font-size: 25px;
 }
