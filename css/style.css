@@ -1,15 +1,17 @@
 *{
     box-sizing: border-box;
-    background-color: rgb(186, 158, 124);
-
+    background: rgb(217, 209, 209);
 }
 main {
     margin: auto;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    width: 400px;
+    font-family: 'Play', sans-serif;    
+    width: 500px;
+    text-shadow: 3px 2px 5px rgb(133, 137, 137);
 }
 h1, h2 {
     text-align: center;
+    color: rgb(67, 49, 107);
+    font-size: 40px;
 }
 
 
@@ -20,5 +22,6 @@ ol {
 }
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(44, 108, 54);
+    font-size: 30px;
 }
