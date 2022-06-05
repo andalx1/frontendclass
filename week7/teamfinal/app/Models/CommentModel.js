@@ -1,4 +1,4 @@
-import { writeToLS, readFromLS } from '../Helpers/Localstorage.js';
+import { writeToLS, readFromLS } from '../Helpers/LocalStorage.js';
 
 class CommentModel {
     constructor(type) {
