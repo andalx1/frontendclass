@@ -1,6 +1,5 @@
-const links = [
-    {
-      label: "Week1 notes",
-      url: "week1/index.html"
-    }
-  ]
+const fecha = document.querySelector("#fecha")
+
+
+const FECHA = new Date()
+fecha.innerHTML= FECHA.toLocaleDateString('en-us',{weekday:'long',month:'short',day:'numeric'})

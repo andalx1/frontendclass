@@ -4,19 +4,17 @@
     margin: 0;
 }
 body{
-    background-color: black;
-    font-family: 'Play', sans-serif;    
-
+    background-color: rgb(9, 9, 9);
+    font-family: 'Play', sans-serif;
 }
 header{
     padding: 20px;
 }
+main{
+    display: flex;
+}
 .box {
-    padding: 10px;
     margin: auto;
-    width: 500px;
-    border-radius: 15px;
-
 }
 h1, h2 {
     text-align: center;
@@ -25,7 +23,6 @@ h1, h2 {
     text-shadow: 2px 2px 16px rgb(203, 201, 201);
 }
 
-
 ol {
     margin: 30px;
     padding: 30px;
@@ -33,10 +30,20 @@ ol {
 }
 a {
     text-decoration: none;
-    color: rgb(44, 108, 54);
+    color: rgb(212, 219, 23);
+    text-shadow: 2px 2px 16px rgb(144, 142, 142);
     font-size: 25px;
 }
 li{
     color: white;
     list-style: none;
+}
+footer {
+    text-align: center;
+    color: rgb(160, 239, 248);
+    font-size: 20px;
+    text-shadow: 2px 2px 16px rgb(203, 201, 201);
+    height: 60px;
+    padding-top: 70px;
+    line-height: 40px;
 }
