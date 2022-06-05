@@ -1,21 +1,28 @@
 *{
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    font-family: 'Play', sans-serif;    
+
+}
+header{
+    padding: 20px;
 }
 .box {
     padding: 10px;
     margin: auto;
-    font-family: 'Play', sans-serif;    
     width: 500px;
-    text-shadow: 3px 2px 5px rgb(133, 137, 137);
-    background: rgb(217, 209, 209);
     border-radius: 15px;
-    box-shadow: 3px 3px 9px rgb(165, 168, 168);
 
 }
 h1, h2 {
     text-align: center;
-    color: rgb(67, 49, 107);
-    font-size: 40px;
+    color: rgb(160, 239, 248);
+    font-size: 60px;
+    text-shadow: 2px 2px 16px rgb(203, 201, 201);
 }
 
 
@@ -28,4 +35,8 @@ a {
     text-decoration: none;
     color: rgb(44, 108, 54);
     font-size: 25px;
+}
+li{
+    color: white;
+    list-style: none;
 }
