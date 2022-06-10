@@ -1,0 +1,16 @@
+div{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-right: 10px;
+    border: 1px solid #AAAAAA;
+}
+.azul {
+    background: rgb(40, 17, 243);
+    border: 1px solid #000;
+}
+.rojo {
+    background: #ff4136;
+    border: 1px solid #000;
+}
