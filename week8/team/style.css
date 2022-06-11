@@ -1,6 +1,7 @@
 *{
     padding: 0;
-    margin: 0;  
+    margin: 0;
+    box-sizing: border-box;
 }
 body{
     background-color: rgb(5, 5, 5);
@@ -12,7 +13,7 @@ body{
     background-color: rgb(218, 218, 28);
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 500px;
     padding: 40px;
     margin: auto;
     margin-top: 30px;
