@@ -1,10 +1,22 @@
 div{
-    background-color: aqua;
+    background-color: rgb(36, 169, 29);
     width: 200px;
     height: 200px;
     display: inline-block;
     margin-right: 10px;
-    border: 1px solid #AAAAAA;
+    border: 5px solid #fa8686;
+    overflow: hidden;
+    transition: 2s;
+
+
+}
+div:hover{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fb1206;
+    border: 15px solid #fa8686;
+
 }
 .azul {
     background: rgb(40, 17, 243);
@@ -13,4 +25,9 @@ div{
 .rojo {
     background: #ff4136;
     border: 1px solid #000;
+}
+.amarillo{
+    background-color: yellow;
+    border: 4px solid #000;
+ 
 }
