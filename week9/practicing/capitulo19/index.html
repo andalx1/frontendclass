@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modificar el estilo de los elementos</title>
+    <style>
+        .thumb{
+            width: 200px;
+            transition: 300ms all ease;
+        }
+        .grande{
+            width: 400px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <input type="button" value="Cambio de Tamaño" onclick="zoom();">
+    </form>
+    <img class="thumb" id="dd" src="https://www.fillmurray.com/400/400" width="400" alt="">
+
+    <script>
+        var zoom = function(){
+            var th = document.getElementById("dd");
+
+            if (th.className == "thumb") {
+                th.className = "thumb grande";
+            } else {
+                th.className = "thumb";
+            }
+        }
+    </script>
+</body>
+</html>
