@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>objeto window</title>
+    <style>
+        .b1{
+            background-color: black;
+            color: aliceblue;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            width: 100px;
+            height: 40px;
+            transition: 300ms;
+        }
+        .b1:hover{
+            background-color: blueviolet;
+            width: 80px;
+            height: 80px;
+            color: chartreuse;
+            border-radius: 50%;
+            box-shadow: 2px 2px 5px chartreuse;
+            box-shadow: 3px 3px 5px rgb(100, 181, 19);
+            font-size: 20px;
+            border: none;
+
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <input class="b1" type="button" value="open" onclick="abrir()">
+        <br>
+        <input type="button" value="open con parametros" onclick="abrirParametros()">
+        <br>
+        <input type="button" value="alert" onclick="mostrarAlerta()">
+        <br>
+        <input type="button" value="confirm" onclick="confirmar()">
+        <br>
+        <br>
+        <input type="button" value="prompt" onclick="cargarCadena()">
+    </form>
+    <script>
+        function abrir(){
+            let ventana = open();
+            ventana.document.write("escribo en la ventana<br>");
+            ventana.document.write("seg linea");
+        }
+        function abrirParametros(){
+            let ventana = open('','',"status=yes,width=200,height=200,menubar=yes");
+            ventana.document.write("5 For because of faith and great anxiety, it truly had been made manifest unto us concerning our people, what things should ahappen unto them.");
+        }
+        function mostrarAlerta(){
+            alert("5 For because of faith and great anxiety, it truly had been made manifest unto us concerning our people, what things should ahappen unto them.");
+        }
+        function confirmar(){
+            let respuesta = confirm("Presione uno de los dos botones.");
+            if (respuesta == true)
+            alert("Good Job!!!");
+            else
+            alert("Bye Bye");
+        }
+        function cargarCadena(){
+            let cad = prompt("Escriba un mensaje:");
+            alert("Usted ingreso: " + cad);
+        }
+
+    </script>
+</body>
+</html>
