@@ -1,5 +1,4 @@
-document.write('hola hfhfhfhfh');
-alert('andres');
-console.log('andres');
+document.write('hola hola jkkjjkj hfhfhfhfh');
+
 
 
