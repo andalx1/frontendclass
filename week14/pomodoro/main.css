@@ -1,0 +1,80 @@
+body{
+    background: black;
+    color: rgb(27, 30, 30);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+#app{
+    background: -webkit-linear-gradient(90deg, yellow 10%, rgb(198, 134, 17) 90%);    width: 500px;
+    margin: 0 auto;
+    border: solid 1px rgb(15, 198, 37);
+    box-shadow:  0  2px  0   #18a01a,
+    0  4px  0   #137c26,
+    0  6px  0   #116e1a, 
+    0  8px  0   #0e5f15, 
+    0 10px  0   #0c5011,
+    0 12px  0   #0a4112,
+   3px 8px 15px rgba(0,0,0,0.1),
+   3px 18px  5px rgba(0,0,0,0.3);;
+    padding: 20px;
+    border-radius: 10px;
+}
+#time {
+    text-align: center;
+    padding: 20px 0;
+}
+#time #value{
+    font: bold 80px/1 arial;
+    text-transform: uppercase;
+    color: #18da22;
+    text-shadow: 0  2px  0   #18a01a,
+                 0  4px  0   #137c26,
+                 0  6px  0   #116e1a, 
+                 0  8px  0   #5f4b0e, 
+                 0 10px  0   #0c5011,
+                 0 12px  0   #0a4112,
+                3px 8px 15px rgba(0,0,0,0.1),
+                3px 8px  5px rgba(0,0,0,0.3);
+}
+    .form{
+    display: flex;
+    justify-content: center;
+}
+input[type="text"]{
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+}
+#taskName {
+    padding-top: 20px;
+}
+button, input[type='submit']{
+    border: none;
+    background-color: rgb(44, 169, 49);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+#tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+.task {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.task .completed {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.done{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgb(166, 167, 168);
+    border-radius: 5px;
+
+}
